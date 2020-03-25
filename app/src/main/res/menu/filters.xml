@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.edurado.MyFilms.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Группировать по:"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_year_old"
+        android:orderInCategory="100"
+        android:title="По году(Возрастание)"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_year_new"
+        android:orderInCategory="100"
+        android:title="По году(Убывание)"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_rating"
+        android:orderInCategory="100"
+        android:title="По рейтингу"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="search"
+        android:icon="@drawable/searchicon"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"/>
+</menu>

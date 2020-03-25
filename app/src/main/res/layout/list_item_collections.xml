@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickViewedFilms"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/MyplaceList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="30dp"
+            android:layout_weight="0.1"/>
+        <TextView
+            android:id="@+id/MynameFilm"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="Охотники за удачей"
+            android:textSize="35dp" />
+        <TextView
+            android:id="@+id/ratioUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textSize="30dp"
+            android:textColor="#af1717"
+            android:text="0.1"/>
+        <TextView
+            android:id="@+id/ratioKinopoisk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textColor="#228B22"
+            android:textSize="30dp"
+            android:text="0.1"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

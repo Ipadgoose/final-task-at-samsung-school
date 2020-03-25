@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edurado.MyFilms.FilmInfoActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#66CDAA">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F3F0DE">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Название"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/MyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Матрица"
+                android:textStyle="italic"
+                android:textSize="35dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F3F0DE">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Год"
+                    android:layout_gravity="center"
+                    android:textSize="40dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/MyYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2002"
+                android:textSize="35dp"
+                android:textStyle="italic"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F3F0DE">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Оценка Кинопоиска"
+                    android:textSize="39dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/MyBallKinopoisk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.66"
+                android:layout_gravity="center"
+                android:textSize="40dp"
+                android:textStyle="italic"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F3F0DE">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Оценка игры актеров"
+                    android:textStyle="bold"
+                    android:textSize="37dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ActorBall1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:hint="1"
+                        android:src="@drawable/star"
+                        android:layout_gravity="center"
+                        android:textSize="65dp"
+                        android:textStyle="italic"
+                        />
+                    <ImageView
+                        android:id="@+id/ActorBall2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:layout_gravity="center"
+                        android:textSize="65dp"
+                        android:textStyle="italic"
+                        />
+                    <ImageView
+                        android:id="@+id/ActorBall3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:layout_gravity="center"
+                        android:textSize="65dp"
+                        android:textStyle="italic"
+                        />
+
+                    <ImageView
+                        android:id="@+id/ActorBall4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:layout_gravity="center"
+                        android:textSize="65dp"
+                        android:textStyle="italic"
+                        />
+                    <ImageView
+                        android:id="@+id/ActorBall5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:layout_gravity="center"
+                        android:textSize="65dp"
+                        android:textStyle="italic"
+                        />
+                    <ImageView
+                        android:id="@+id/ActorBall6"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:layout_gravity="center"
+                        android:textSize="65dp"
+                        android:textStyle="italic"
+                        />
+                    <ImageView
+                        android:id="@+id/ActorBall7"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:layout_gravity="center"
+                        android:textSize="65dp"
+                        android:textStyle="italic"
+                        />
+                    <ImageView
+                        android:id="@+id/ActorBall8"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:layout_gravity="center"
+                        android:textSize="65dp"
+                        android:textStyle="italic"
+                        />
+                    <ImageView
+                        android:id="@+id/ActorBall9"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:layout_gravity="center"
+                        android:textSize="65dp"
+                        android:textStyle="italic"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F3F0DE">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Оценка сюжета"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="40dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/PlotBall1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:hint="1"
+                        android:src="@drawable/star"
+                        android:textSize="65dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:id="@+id/PlotBall2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:textSize="65dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:id="@+id/PlotBall3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:textSize="65dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:id="@+id/PlotBall4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:textSize="65dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:id="@+id/PlotBall5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:textSize="65dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:id="@+id/PlotBall6"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:textSize="65dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:id="@+id/PlotBall7"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:textSize="65dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:id="@+id/PlotBall8"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:textSize="65dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:id="@+id/PlotBall9"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:hint="1"
+                        android:src="@drawable/emptystar"
+                        android:textSize="65dp"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F3F0DE">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Оценка монтажа"
+                    android:layout_gravity="center"
+                    android:textSize="40dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/InstallationBall1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:hint="1"
+                    android:src="@drawable/star"
+                    android:layout_gravity="center"
+                    android:textSize="65dp"
+                    android:textStyle="italic"
+                    />
+                <ImageView
+                    android:id="@+id/InstallationBall2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:hint="1"
+                    android:src="@drawable/emptystar"
+                    android:layout_gravity="center"
+                    android:textSize="65dp"
+                    android:textStyle="italic"
+                    />
+                <ImageView
+                    android:id="@+id/InstallationBall3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:hint="1"
+                    android:src="@drawable/emptystar"
+                    android:layout_gravity="center"
+                    android:textSize="65dp"
+                    android:textStyle="italic"
+                    />
+
+                <ImageView
+                    android:id="@+id/InstallationBall4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:hint="1"
+                    android:src="@drawable/emptystar"
+                    android:layout_gravity="center"
+                    android:textSize="65dp"
+                    android:textStyle="italic"
+                    />
+                <ImageView
+                    android:id="@+id/InstallationBall5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:hint="1"
+                    android:src="@drawable/emptystar"
+                    android:layout_gravity="center"
+                    android:textSize="65dp"
+                    android:textStyle="italic"
+                    />
+                <ImageView
+                    android:id="@+id/InstallationBall6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:hint="1"
+                    android:src="@drawable/emptystar"
+                    android:layout_gravity="center"
+                    android:textSize="65dp"
+                    android:textStyle="italic"
+                    />
+                <ImageView
+                    android:id="@+id/InstallationBall7"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:hint="1"
+                    android:src="@drawable/emptystar"
+                    android:layout_gravity="center"
+                    android:textSize="65dp"
+                    android:textStyle="italic"
+                    />
+                <ImageView
+                    android:id="@+id/InstallationBall8"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:hint="1"
+                    android:src="@drawable/emptystar"
+                    android:layout_gravity="center"
+                    android:textSize="65dp"
+                    android:textStyle="italic"
+                    />
+                <ImageView
+                    android:id="@+id/InstallationBall9"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:hint="1"
+                    android:src="@drawable/emptystar"
+                    android:layout_gravity="center"
+                    android:textSize="65dp"
+                    android:textStyle="italic"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#F3F0DE">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ваш личный отзыв о фильме"
+                    android:textSize="27dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/Myreview"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:text="   "
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/kinopoiskButtonInInfoFilmActivity"
+                android:onClick="onClickKinoPoiskGoFilmInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CТРАНИЦА НА КИНОПОИСКЕ"
+                android:background="#F5CA7E"
+                />
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#D95551"
+                android:onClick="onClickDelete"
+                android:text="УДАЛИТЬ ФИЛЬМ ИЗ КОЛЛЕКЦИИ"
+                android:textStyle="bold"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
